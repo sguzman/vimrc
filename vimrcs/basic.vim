@@ -71,7 +71,7 @@ set nowritebackup
 " No swap files ""
 set noswapfile
 
-Set 7 lines to the cursor - when moving vertically using j/k
+" Set 7 lines to the cursor - when moving vertically using j/k ""
 set so=7
 
 " Avoid garbled characters in Chinese language windows OS
