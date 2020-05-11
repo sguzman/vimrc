@@ -58,6 +58,10 @@ command! W execute 'w !sudo tee % > /dev/null' <bar> edit!
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " Set line numbers "
 set number
+
+" Map ; to : "
+nmap ; :
+
 " Set 7 lines to the cursor - when moving vertically using j/k
 set so=7
 
