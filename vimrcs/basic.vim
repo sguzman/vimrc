@@ -56,13 +56,23 @@ command! W execute 'w !sudo tee % > /dev/null' <bar> edit!
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Set line numbers "
+" Set number line "
 set number
 
-" Map ; to : "
+" Map colon to semicolon ""
 nmap ; :
 
-" Set 7 lines to the cursor - when moving vertically using j/k
+" No backup files""
+set nobackup
+
+" No write backup ""
+set nowritebackup
+
+" No swap files ""
+set noswapfile
+
+" Set 7 lines to the cursor - when moving vertically using j/k ""
+>>>>>>> 688c7db8943c86d678d85e11243238ca039ef022
 set so=7
 
 " Avoid garbled characters in Chinese language windows OS
