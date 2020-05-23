@@ -12,3 +12,7 @@ set nowritebackup
 
 " No swap files "
 set noswapfile
+
+" Hy lang config "
+let g:hy_enable_conceal = 1
+let g:hy_enable_fancy = 1
