@@ -56,21 +56,6 @@ command! W execute 'w !sudo tee % > /dev/null' <bar> edit!
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
 " => VIM user interface
 """""""""""""""""""""""""""""""""""""""""""""""""""""""""""""""
-" Set number line "
-set number
-
-" Map colon to semicolon ""
-nmap ; :
-
-" No backup files""
-set nobackup
-
-" No write backup ""
-set nowritebackup
-
-" No swap files ""
-set noswapfile
-
 " Set 7 lines to the cursor - when moving vertically using j/k ""
 set so=7
 
