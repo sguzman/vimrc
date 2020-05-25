@@ -16,3 +16,8 @@ set noswapfile
 " Hy lang config "
 let g:hy_enable_conceal = 1
 let g:hy_enable_fancy = 1
+
+# Json stuff "
+set filetype=json
+syntax on
+set foldmethod=syntax
