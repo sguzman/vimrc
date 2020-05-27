@@ -1,0 +1,9 @@
+[submodule "my_plugins/rust.vim"]
+	path = my_plugins/rust.vim
+	url = https://github.com/rust-lang/rust.vim
+[submodule "my_plugins/hy.vim"]
+	path = my_plugins/hy.vim
+	url = https://github.com/hylang/vim-hy
+[submodule "my_plugins/fish.vim"]
+	path = my_plugins/fish.vim
+	url = https://github.com/dag/vim-fish
